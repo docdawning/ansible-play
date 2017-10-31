@@ -1,0 +1,5 @@
+ - script: assertScalyrCentOS.sh
+   name: "Asserting Scalyr upon CentOS server"
+   args:
+     creates: /etc/scalyr-agent-2/agent.json
+
