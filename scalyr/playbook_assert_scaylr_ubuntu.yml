@@ -3,3 +3,5 @@
   become: true
   roles:
     - assert_scalyr_ubuntu
+    - assert_scalyr_config_ubuntu
+    - service-restart_scalyr-agent-2

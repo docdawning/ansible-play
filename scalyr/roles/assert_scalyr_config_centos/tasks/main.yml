@@ -1,0 +1,7 @@
+# Copy the local scalyr config in to place
+- copy:
+    src: scalyr-agent.json
+    dest: /etc/scalyr-agent-2/agent.json
+    owner: root
+    group: root
+    mode: 0644

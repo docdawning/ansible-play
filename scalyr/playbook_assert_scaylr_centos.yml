@@ -3,3 +3,5 @@
   become: true
   roles:
     - assert_scalyr_centos
+    - assert_scalyr_config_centos
+    - service-restart_scalyr-agent-2
