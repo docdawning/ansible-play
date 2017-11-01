@@ -17,3 +17,7 @@ sudo apt-get install scalyr-repo
 sudo apt-get install scalyr-agent-2
 
 sudo scalyr-agent-2-config --set-key "$SCALYR_API_KEY"
+
+# Newer systems will use systemctl. But whatever.
+sudo service scalyr-agent-2 start
+sudo systemctl start scalyr-agent-2

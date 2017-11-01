@@ -1,5 +1,0 @@
----
-- hosts: centos-servers
-  become: true
-  roles:
-    - assert_scalyr_centos
