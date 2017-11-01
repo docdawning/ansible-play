@@ -1,0 +1,5 @@
+ - script: assertScalyrUbuntu.sh
+   name: "Asserting Scalyr upon Ubuntu server"
+   args:
+     creates: /etc/scalyr-agent-2/agent.json
+
